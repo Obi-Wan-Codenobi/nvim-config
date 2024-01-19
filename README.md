@@ -15,7 +15,12 @@ I am using packer (https://github.com/wbthomason/packer.nvim)
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
-### Trouble Shooting
+### Trouble Shooting / making it work
+
+First delete this dir and file
+```
+plugin/packer_compiled.lua
+```
 
 Go into the lua/codenobi/packer.lua and then go into nvim and type
 ```
@@ -48,6 +53,10 @@ Then after this, repaste the old content of the file and then repeat
 :so  <enter>
 :PackerSync <enter>
 ```
+
+## Now Time for the LSP
+
+Still trouble shooting how to get it working from cloning. I shall be back.
 
 
 
