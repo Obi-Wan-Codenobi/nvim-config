@@ -1,4 +1,4 @@
-###Put files in this dir 
+##Put files in this dir 
 ```
 ~/.config/nvim/
 ```
