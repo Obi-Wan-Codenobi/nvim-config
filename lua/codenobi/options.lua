@@ -27,5 +27,6 @@ opt.smartcase = true
 --opt.background = "dark"
 --opt.signcolumn = "yes"
 
-
+--clipboard setting 
+vim.cmd('set clipboard=unnamedplus')
 
